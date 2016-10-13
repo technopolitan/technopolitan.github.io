@@ -1,1 +1,310 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Technopolitan podcast</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/circle.skin/circle.player.css">
+  
+</head>
+<body>
+<div id="jquery_jplayer_1" class="cp-jplayer"></div>
+  
+<!-- TITLE -->  
+  <div class="section no-pad-bot banner" id="index-banner">
+    <div class="container">
+      <br><br>
+	 	<div class="row center">      
+      	<img class="logo" src="css/images/logo.png" alt="">
+      </div>      	
+      	<div class="row center">
+        		<h5 class="header col s12 light gray-text">Το ελληνικό τεχνολογικό podcast για τους power users</h5>
+      	</div>
+
+<!-- PLAYER -->
+<div class="prototype-wrapper"> <!-- A wrapper to emulate use in a webpage and center align -->
+
+			<!-- The container for the interface can go where you want to display it. Show and hide it as you need. -->
+			<div id="cp_container_1" class="cp-container">
+				<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+					<div class="cp-buffer-1"></div>
+					<div class="cp-buffer-2"></div>
+				</div>
+				<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+					<div class="cp-progress-1"></div>
+					<div class="cp-progress-2"></div>
+				</div>
+				<div class="cp-circle-control"></div>
+				<ul class="cp-controls">
+					<li><a class="cp-play" tabindex="1">play</a></li>
+					<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+				</ul>
+			</div>
+		</div>
+      <br><br>
+      
+<!-- BUTTON -->      
+      <div class="row center">
+			<ul class="collapsible" data-collapsible="accordion">
+    			<li>
+      			<div class="collapsible-header"><i class="material-icons">comment</i>Θέματα επεισοδίου #4</div>
+      			<div class="collapsible-body white">
+	      			<ul>
+   	   				<li>Android Andromeda – Ένωση Android και Chrome OS; <b>Android</b></li>
+      					<li>Google Allo – Χρήσιμο ή παπαριά; <b>Android</b></li>
+      					<li>Φήμες για τιμή 650 δολαρίων για το Google Pixel Android</li>
+      					<li>Έληξαν τα capital controls για αγορές ηλεκτρονικών ειδών από το εξωτερικό News</li>
+      					<li>Νέα trailer για το Watchdogs 2 (Κυκλοφορία 15/11) Gaming</li>
+      					<li>Βγαίνει το FIFA 17 στις 29/09 Gaming</li>
+    		  				<li>Μία εβδομάδα με το Nextcloud box Server</li>
+      					<li>Train to Busan Ταινίες</li>
+      					<li>Το Deus Ex : Mankind Divided έρχεται στο Linux Gaming</li>
+      					<li>GNOME 3.22 Released, This Is What’s New Desktop</li>
+      					<li>Adobe Returns to Linux with the New NPAPI Flash Player After 4 Years Desktop</li>
+      					<li>Ο Mark Zuckerberg και η Priscilla Chan ανακοινώνουν πρωτοβουλία $3 δις για να “θεραπεύσουν όλες τις ασθένειες” News</li>
+     	 					<li>Tails 2.6 — Ultra-secure Linux OS Used By Snowden Gets Updated Tor And Kernel Operating Systems </li>
+      					<li>Άρνηση εγκατάστασης Linux σε ορισμένα Lenovo Yoga Events</li>
+      					<li>Ghost in the shell trailers (Scarlett Johansson) Ταινίες</li>
+      					<li>Rocket.chat server σε snap για το Nextcloud Desktop</li>
+      					<li>uMatrix add-on Desktop</li>
+      				</ul>      
+      			</div>
+          	</li>
+			</ul>      
+		</div>      
+    </div>
+      <br><br>
+  </div>
+  
+  <div class="row">
+        <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Τι είναι το Technopolitan;</span>
+              <p>Πρόκειται για ένα "ραδιοφωνικό" μαγκαζίνο στο οποίο σχολιάζουμε τα καλύτερα κατά τη γνώμη μας τεχνολογικά νέα της εβδομάδας. Η θεματολογία μας ποικίλει και κινείται κυρίως γύρω από το mobile, το desktop, το gaming και άλλα, όμως μας αρέσουν και τα πιο προχωρημένα πράγματα για το Linux, το Android, τους server και τα single-board computer όπως το Raspberry Pi. </p>
+              <br>
+              <p>Πάνω από όλα όμως το Technopolitan είναι γέλιο, κράξιμο,  καζούρα και φυσικά καλή παρέα και δε θα μπορούσε να γίνει πραγματικότητα χωρίς τη σύμπραξη δυνάμεων του Cerebrux και του Dr. Android.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://cerebrux.net/" target="_blank">Cerebrux</a>
+              <a href="http://www.doctorandroid.gr/" target="_blank">Dr. Android</a>
+            </div>
+          </div>
+          <br><br>
+        </div>
+      </div>
+
+<!-- PRESENTERS -->
+ <div class="section no-pad-bot presenters white">
+  <div class="container">
+  <h1 class="header center grey-text">Συντελεστές</h1>
+  <div class="row center">
+  	 <h5 class="header col s12 light black-text">Γνωρίστε τα τρία ταγάρια που σας φιλοξενούν</h5>
+  </div>
+
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+    			<div class="card-image waves-effect waves-block waves-light">
+      			<img class="activator" src="css/images/Bill.png">
+    			</div>
+    			<div class="card-content">
+      			<span class="card-title activator grey-text text-darken-4">Βασίλης<i class="material-icons right">more_vert</i></span>
+      			<p><a href="https://cerebrux.net/" target="_blank">Cerebrux</a></p>
+    			</div>
+    			<div class="card-reveal">
+      			<span class="card-title grey-text text-darken-4">Ο Βασίλης...<i class="material-icons right">close</i></span>
+      			<p>είναι hipster απ' τους λίγους, αμετανόητος Apple fan και μεγάλος τσαχπινογαργαλιάρης.</p>
+      			<p> Είναι αρθρογράφος στο Cerebrux, άρα υπάλληλος του Salih, εμπνέεται από τις συζητήσεις με επιχειρήματα, διαθέτει εξαιρετικά εκπλεπτισμένο χιούμορ και δεν αντέχει χωρίς το "μωρακι".</p>
+      			<p>Στόχος του να καταφέρει να παίξει όλα τα διαθέσιμα παιχνίδια του Steam σε αυτή τη ζωή. Διαθέτει ήδη 651!</p>
+    			</div>
+  			 </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+    			<div class="card-image waves-effect waves-block waves-light">
+      			<img class="activator" src="css/images/Chris.JPG">
+    			</div>
+    			<div class="card-content">
+      			<span class="card-title activator grey-text text-darken-4">Χρήστος<i class="material-icons right">more_vert</i></span>
+      			<p><a href="http://www.doctorandroid.gr/" target="_blank">Dr. Android</a></p>
+    			</div>
+    			<div class="card-reveal">
+      			<span class="card-title grey-text text-darken-4">Ο Χρήστος...<i class="material-icons right">close</i></span>
+      			<p>είναι κολλημένος με το Android, καθαρόαιμο net-zombie και λάτρης του PlayStation.</p>
+      			<p>Είναι αυτό που λέμε στην καθημερινότητα "προμπλέμι", βαριέται μέχρι θανάτου και πιστεύει ότι το χιούμορ του δε θα εκτιμηθεί ποτέ κι από κανέναν. Οι περισσότεροι προσβάλλονται από αυτό κιόλας</p>
+      			<p>Μεγάλο του επίτευγμα το Dr. Android, η σελίδα που διαθέτει τα πάντα γύρω από το οικοσύστημα του Android.</p>
+    			</div>
+  			 </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+    			<div class="card-image waves-effect waves-block waves-light">
+      			<img class="activator" src="css/images/Salih.jpg">
+    			</div>
+    			<div class="card-content">
+      			<span class="card-title activator grey-text text-darken-4">Salih<i class="material-icons right">more_vert</i></span>
+      			<p><a href="https://cerebrux.net/" target="_blank">Cerebrux</a></p>
+    			</div>
+    			<div class="card-reveal">
+      			<span class="card-title grey-text text-darken-4">Ο Salih...<i class="material-icons right">close</i></span>
+      			<p>είναι μέγας μάστορας στο Linux, παινεμένος sysadmin και οpen-source evangelist.</p>
+      			<p>Το μεγαλυτερό του επίτευγμα είναι η πανέμορφη κοράκλα του, ενώ ο στόχος ζωής του είναι να πλατιάσει όλες τις συζητήσεις που συμμετέχει, μέχρι οι υπόλοιποι να βαρεθούν και να φύγουν.</p>
+      			<p>Ιδιοκτήτης του cerebrux.net, του site που μας λύνει όλες τις απορίες για το Linux και τους server.</p>
+
+    			</div>
+  			 </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+
+  </div>
+  </div>
+
+<!-- ARCHIVE -->
+ <div class="section no-pad-bot archive white">
+ 	<div class="container">
+   	<h1 class="header center grey-text">Όλες οι εκπομπές</h1>
+   	  <div class="row center">
+   	  	 <h5 class="header col s12 light black-text">Δε χόρτασες; Άκουσε όλες τις εκπομπές, παλιές και νέες.</h5>
+  		  </div>
+    		<div class="section center">
+ 				<iframe src="http://tunein.com/embed/player/p912525/" style="width:100%;height:350px;" scrolling="no" frameborder="no"></iframe> 
+ 				<br><br>			
+ 			</div>
+	</div>
+ </div>
+
+<!-- SOURCES -->
+ <div class="section no-pad-bot sources">
+ 	<div class="container">
+   	<h1 class="header center grey-text">Όπου γουστάρεις</h1>
+   	  <div class="row center">
+   	  	 <h5 class="header col s12 light black-text">Άκου την εκπομπή στην αγαπημένη σου υπηρεσία.</h5>
+  		  </div>
+    		<div class="section">
+				<table>
+        <tbody>
+          <tr>
+            <td><a href="https://itunes.apple.com/gr/podcast/technopolitan/id1158674191" target="blank"><img src="css/images/Apple-music.png" alt="iTunes"></a></td>
+            <td><a href="http://pca.st/06Sc" target="blank"><img src="css/images/Pocketcasts.png" alt="Pocket Casts"></a></td>
+            <td><a href="https://archive.org/details/@cerebrux" target="blank"><img src="css/images/Archive.png" alt="Archive.org"></a></td>
+            <td><a href="https://www.youtube.com/channel/UC3fVe6StVEuHss3RlLM_eQA/videos" target="blank"><img src="css/images/Youtube.png" alt="YouTube"></a></td>
+            <td><a href="http://www.stitcher.com/podcast/cerebrux/technopolitan" target="blank"><img src="css/images/Stitcher.png" alt="Stitcher"></a></td>
+            <td><a href="http://tunein.com/radio/Technopolitan-p912525/" target="blank"><img src="css/images/Tunein.png" alt="TuneIn radio"></a></td>
+            <td><a href="https://player.fm/series/technopolitan" target="blank"><img src="css/images/Playerfm.png" alt="Player FM"></a></td>
+          </tr>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+ 			</div>
+	</div>
+ </div>
+
+<!-- COMMUNITY -->		
+ <div class="section no-pad-bot community white">
+ 	<div class="container">
+   	<h1 class="header center grey-text">Πες τα!</h1>
+   	<div class="row center">
+   	  	 <h5 class="header col s12 light black-text">Δώσε feedback, πες την ιδέα σου, κράξε ή πες απλά την άποψή σου.</h5>
+  		</div>
+    	<div class="section">
+    		<div id="disqus_thread"></div>    	
+    	</div>
+   </div>
+ </div>
+
+<script>
+var disqus_config = function () {
+    this.page.url = http://www.technopolitan.gr;
+    this.page.identifier = Technopolitan
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//technopolitan-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>				
+				
+<!-- FOOTER -->
+  <footer class="page-footer grey" style="margin-top: 0px;">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Τι είναι το Technopolitan</h5>
+          <p class="grey-text text-lighten-4">Ένα "ραδιοφωνικό" μαγκαζίνο στο οποίο σχολιάζουμε τα καλύτερα κατά τη γνώμη μας τεχνολογικά νέα της εβδομάδας. Η θεματολογία μας ποικίλει και κινείται κυρίως γύρω από το mobile, το desktop, το gaming και άλλα, όμως μας αρέσουν και τα πιο προχωρημένα πράγματα όπως το Linux, το Chrome OS και τα single-board computer.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="https://www.linkedin.com/in/chris-karasoulis-805158115">Chris K</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script id="dsq-count-scr" src="//technopolitan-1.disqus.com/count.js" async></script>
+	
+  <!-- JPLAYER -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.transform2d.js"></script>
+		<script type="text/javascript" src="js/jquery.grab.js"></script>
+		<script type="text/javascript" src="js/mod.csstransforms.min.js"></script>
+		<script type="text/javascript" src="js/circle.player.js"></script>
+	   <script type="text/javascript" src="js/jquery.jplayer.js"></script>
+		<!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+			var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
+			{
+				m4a: "",
+				oga: "https://ia801501.us.archive.org/3/items/technopolitan-ep4/technopolitan-ep4.ogg"
+			}, {
+				cssSelectorAncestor: "#cp_container_1"
+			});
+		})
+		</script>
+  </body>
+</html>

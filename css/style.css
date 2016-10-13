@@ -1,0 +1,36 @@
+body {
+	background-color:#f0f0f0;
+} 
+.banner {
+background: url('images/banner.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo{
+width: 80%;
+}
+.prototype-wrapper {
+	width:200px;
+	margin: 0 auto;
+}
+.icon-block {
+  	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.presenters h1 {
+	margin-top: 0;
+	padding-top: 30px;
+}
+td img {
+width: 100%;
+}
+.presenters, .community {
+box-shadow: 0 -3px 5px #888888;
+}
+.archive {
+box-shadow: 10px 5px 5px #888888;
+}
