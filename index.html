@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
@@ -7,8 +7,8 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
   <link rel="stylesheet" href="css/circle.skin/circle.player.css">
   <!-- favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -128,7 +128,7 @@
         <div class="col s12 m4">
           <div class="card">
     			<div class="card-image waves-effect waves-block waves-light">
-      			<img class="activator" src="css/images/Bill.png">
+      			<img class="activator" src="css/images/Bill.png" alt="Bill" >
     			</div>
     			<div class="card-content">
       			<span class="card-title activator grey-text text-darken-4">Βασίλης<i class="material-icons right">more_vert</i></span>
@@ -146,7 +146,7 @@
         <div class="col s12 m4">
           <div class="card">
     			<div class="card-image waves-effect waves-block waves-light">
-      			<img class="activator" src="css/images/Chris.JPG">
+      			<img class="activator" src="css/images/Chris.JPG" alt="Chris" >
     			</div>
     			<div class="card-content">
       			<span class="card-title activator grey-text text-darken-4">Χρήστος<i class="material-icons right">more_vert</i></span>
@@ -164,7 +164,7 @@
         <div class="col s12 m4">
           <div class="card">
     			<div class="card-image waves-effect waves-block waves-light">
-      			<img class="activator" src="css/images/Salih.jpg">
+      			<img class="activator" src="css/images/Salih.jpg" alt="Salih">
     			</div>
     			<div class="card-content">
       			<span class="card-title activator grey-text text-darken-4">Salih<i class="material-icons right">more_vert</i></span>
@@ -195,7 +195,7 @@
    	  	 <h5 class="header col s12 light black-text">Δε χόρτασες; Άκουσε όλες τις εκπομπές, παλιές και νέες.</h5>
   		  </div>
     		<div class="section center">
- 				<iframe src="https://tunein.com/embed/player/p912525/" style="width:100%;height:350px;" scrolling="no" frameborder="no"></iframe> 
+ 				<iframe class="tunein" src="https://tunein.com/embed/player/p912525/" style="width:100%;height:350px;"></iframe> 
  				<br><br>			
  			</div>
 	</div>
@@ -219,8 +219,6 @@
             <td><a href="http://www.stitcher.com/podcast/cerebrux/technopolitan" target="blank"><img src="css/images/Stitcher.png" alt="Stitcher"></a></td>
             <td><a href="http://tunein.com/radio/Technopolitan-p912525/" target="blank"><img src="css/images/Tunein.png" alt="TuneIn radio"></a></td>
             <td><a href="https://player.fm/series/technopolitan" target="blank"><img src="css/images/Playerfm.png" alt="Player FM"></a></td>
-          </tr>
-          <tr>
           </tr>
         </tbody>
       </table>
@@ -246,7 +244,6 @@ var disqus_config = function () {
     this.page.url = "https://technopolitan.github.io/";
     this.page.identifier = "technopolitan-1";
 };
-
 (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
     s.src = '//technopolitan-1.disqus.com/embed.js';
@@ -289,6 +286,7 @@ var disqus_config = function () {
 	      </div>      
     </div>
     </div>
+    </div>
   </footer>
 
   <!--  Scripts-->
@@ -323,10 +321,8 @@ var disqus_config = function () {
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-85713540-1', 'auto');
   ga('send', 'pageview');
-
   </script>
  </body>
 </html>
