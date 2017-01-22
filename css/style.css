@@ -37,6 +37,9 @@ box-shadow: 10px 5px 5px #888888;
 .tunein {
 border:none;
 }
+.social {
+margin:0;
+}
 .social li {
 float:right;
 }
